@@ -1,0 +1,10 @@
+﻿body {
+    background: url('/bg.jpg') repeat-x;
+    background-repeat: repeat;
+    animation: scroll 50s linear infinite;
+}
+
+@keyframes scroll {
+    from { background-position: 0 0; }
+    to { background-position: 100% 100%; }
+}
