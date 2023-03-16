@@ -1,10 +1,18 @@
 ﻿body {
-    background: url('/bg.jpg') repeat-x;
+    background: url('/bg.png') repeat-x;
     background-repeat: repeat;
     animation: scroll 50s linear infinite;
+    cursor: url('custom-cursor.png'), auto;
+    user-select: none;
+
 }
 
 @keyframes scroll {
     from { background-position: 0 0; }
     to { background-position: 100% 100%; }
+}
+
+/* Disable text selection for a specific element */
+.disable-select {
+    user-select: none;
 }
