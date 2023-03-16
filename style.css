@@ -4,7 +4,6 @@
     animation: scroll 50s linear infinite;
     cursor: url('custom-cursor.png'), auto;
     user-select: none;
-
 }
 
 @keyframes scroll {
@@ -16,3 +15,23 @@
 .disable-select {
     user-select: none;
 }
+
+.bounce {
+    position: relative;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: -10px;
+    }
+    100% {
+        top: 0;
+    }
+}
+

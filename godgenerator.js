@@ -2,109 +2,119 @@
 const dogs = [
     {
         asciiArt: "\n|\\_/|  \n|o o|__\n \\_^_/  \n",
-        description: "This is Max. He's a happy-go-lucky pup who loves playing fetch and going for long walks."
+        name: "Max",
+        age: 3,
+        description: "He's a happy-go-lucky pup who loves playing fetch and going for long walks.",
     },
     {
-        asciiArt: "     ,--,\n     ( o ^ o )\n   _   \\\\//\n  /  \\_/_\\\n /_/_|_\\_\\\n    ' ' ' '",
-        description: "Meet Charlie, the energetic pup who always loves to play and run around."
+        asciiArt: "\n  __      _\no-''))_____\\ \n--__)/ --__)/-- @\n",
+        name: "Buddy",
+        age: 5,
+        description: "Buddy is a loyal companion who loves to cuddle up with his humans and play tug-of-war.",
+},
+{
+        asciiArt: "\n __      __\n/  \\~~~/  \\\n\\__/  O \\__/\n  |\\__/|  \n /     /\\_\n/_|___|\\ \n",
+        name: "Bailey",
+        age: 2,
+        description: "Bailey is a playful pup who loves running around in the park and chasing after toys.",
+},
+{
+    asciiArt: "\n   /\\___/\\  \n  (=^ .^=)~\n  c   \"   c\n",
+        name: "Luna",
+    age: 4,
+    description: "Luna is a curious cat-dog who loves to explore new places and meet new people.",
+},
+{
+    asciiArt: "\n  __      __\n/  \\____/  \\\n\\__/ .. \\__/\n   /_/\\_\n  /_/|\\_\n |__/ \\__|\n",
+        name: "Rocky",
+    age: 6,
+    description: "Rocky is a brave and loyal dog who loves to protect his family and play with his favorite ball.",
+},
+{
+    asciiArt: "\n   _    _\n /~`\\ /`~\\\n|    |    |\n\\    |    /\n `\\  |  /` \n   `\\|/`\n",
+        name: "Charlie",
+    age: 7,
+    description: "Charlie is a gentle giant who loves to snuggle up with his humans and play with his favorite toys.",
+},
+{
+    asciiArt: "\n     _\n    / )  _\n ,-^^ /^ /' \n/   \\__|      \n\\   /      \n \\_/\\____,_\n",
+        name: "Daisy",
+    age: 1,
+    description: "Daisy is a playful and energetic puppy who loves to run around and play with her favorite toys.",
+},
+    {
+        asciiArt: "\n    /\\      \n   /  \\     \n  /    \\    \n /      \\   \n/_______\\  \n",
+        name: "Buddy",
+        age: 2,
+        description: "He's a loyal companion who will follow you wherever you go.",
     },
     {
-        asciiArt: "    __      _\n o'')}____//\n '--/    / | \\\n   \\\\___(_|_|_)",
-        description: "This is Luna, the loyal pup who always follows you wherever you go."
+        asciiArt: "\n     __\n\\/\\  _((\\o/))_\n \\==/   /\\  \n     |---|`\n     /   \\ \n",
+        name: "Rocky",
+        age: 5,
+        description: "He's a tough dog with a heart of gold who loves going on adventures.",
     },
     {
-        asciiArt: "     /\\_/\\   \n    ( o.o )  \n     > ^ <   \n",
-        description: "This is Bella, the sweet pup who loves to cuddle and play with toys."
+        asciiArt: "\n   /\\___/\\ \n  (  o   o  )\n (   =^=   )\n  (\"\")_(\"\")  \n",
+        name: "Luna",
+        age: 1,
+        description: "She's a playful pup who loves snuggles and getting into mischief.",
     },
     {
-        asciiArt: "      /\\_/\n     / o o \\\n    (   \"   )\n     \\~(*)~/\n      '---'",
-        description: "Meet Duke, the fun-loving pup who loves to play fetch and go on long walks."
+        asciiArt: "\n     /\\_/\\   \n    / o o \\ \n   /   -   \\ \n  / \\___/ \\ \n /        / \\ \n",
+        name: "Charlie",
+        age: 4,
+        description: "He's a friendly dog who loves meeting new people and playing with other dogs.",
     },
     {
-        asciiArt: "     /\\_/\\ \n   =( o.o )=\n    )_\"\"\"_(\\\n   /       \\\n  / /   \\ \\ \\\n   \\ \\   / /\n",
-        description: "This is Marley, a quirky dog who loves to play and make you laugh."
+        asciiArt: "\n    /\\_/\n   ( o.o )\n    > ^ <\n",
+        name: "Buddy",
+        age: 2,
+        description: "Buddy is a little shy at first, but once he gets to know you, he's a total sweetheart.",
     },
     {
-        asciiArt: "      /\\_/\n     / o o \\\n    |   \"   |\n     \\~(*)~/\n      '---'",
-        description: "Meet Ginger, the curious pup who loves to"
+        asciiArt: "\n  __      _\no'')}____//\n \"\" * * * )O)\n   (*--(*--'-'",
+        name: "Rocky",
+        age: 5,
+        description: "Rocky is a tough little dog with a heart of gold. He loves to play and is always up for an adventure.",
     },
     {
-        asciiArt: "     /\\___/\\\n    /        \\\n   / /\\    /\\ \\\n  / /  \\  /  \\ \\\n |          | \n  \\        /\n   \\  /\\  /\n    \\/__\\/",
-        description: "Introducing Riley, the adventurous pup who loves to explore new places and try new things."
+        asciiArt: "\n   __\no-''||||''-o\n   '''",
+        name: "Daisy",
+        age: 4,
+        description: "Daisy is a sweet and gentle soul who loves nothing more than cuddling up with her favorite humans.",
     },
     {
-        asciiArt: "  /\\_____/\\  \n /  o     o  \\ \n( ==  ^  == )\n )   (_)   (\n(          )\n \\        / \n  \\  __  / \n   \\____/",
-        description: "Meet Sparky, the affectionate pup who loves to cuddle and be close to their owner."
+        asciiArt: "\n /\\     /\\\n{  `---'  }\n{  O   O  }\n  \\\~(*)~/\n   \\_\\|/_/\n    \" \" \" \" ",
+        name: "Charlie",
+        age: 1,
+        description: "Charlie is a bundle of energy who loves to play and is always up for a game of fetch.",
     },
     {
-        asciiArt: "     /\\_/\\  \n    / o o \\\n   (   \"   )\n    \\~(*)~/\n     '---'",
-        description: "Introducing Bandit, the mischievous pup who loves to play pranks on their owner but is always ready for a good snuggle."
+        asciiArt: "\n    ____\n  /      \\\n |  x   x  |\n(|    ^    |)\n |  \\___/  |\n   \\_____/  \n",
+        name: "Spot",
+        age: 2,
+        description: "He's a very energetic dog and loves to chase after squirrels and birds in the park.",
     },
     {
-        asciiArt: "      ,__\n  (___()'`;\n     /,    /\n    \\\"---\\\"\n",
-        description: "Meet Tilly, the adventurous pup who loves exploring the great outdoors and playing in the water."
+        asciiArt: "\n        __\n    .--()'`;\n  ./ ()     \\ \n  |`-.._____.'|\n  \\; \'-..____/ \n   `\\    _;\n    '---'`\n",
+        name: "Ace",
+        age: 5,
+        description: "He's a fearless dog and loves to go on adventures with his human, whether it's hiking or swimming.",
     },
     {
-        asciiArt: "       /\\__/\\ \n     /`    '\\\n   === 0  0 ===\n     \\  --  /\n    /        \\\n   /          \\\n",
-        description: "Say hello to Cooper, the happy-go-lucky pup who loves playing fetch and snuggling up on the couch."
+        asciiArt: "\n      __\n\\'\\/ o\\_\\_    ___\n(   <   \\.`'---._/|_\n/       )  '\\_/'/ \n\\_/\\  ( /\\/     /\\ \n      \\ |     _ | )\n      /\\|\\ _-\\|\\ \n     /||\\\\_\\`|\\_\\\n    / ||/     \\/_\\\n      \n",
+        name: "Buddy",
+        age: 4,
+        description: "He's a bit of a daredevil and loves to skateboard with his human. He's also a great cuddler.",
     },
     {
-        asciiArt: " /\\__/\\\n/`    '\\\n| () () |\n \\  ^  /\n  \\/\\/",
-        description: "This is Rosie, a curious and adventurous pup who loves exploring new places and meeting new friends."
-    },
-    {
-        asciiArt: "  __\n{~._.'}\n ( Y )\n()~*~()\n(_)-(_)",
-        description: "Meet Rufus, the goofy and fun-loving pup who is always up for a game of tug-of-war or fetch."
-    },
-    {
-        asciiArt: "  .--.\n  |__|\n  |  |\n  |  |\n  |  |\n  |  |\\ \n  |  | \\ \n  |  |  \\ \n  |__|   \\_)",
-        description: "This is Gus, the loyal and protective pup who will always stand by your side no matter what."
-    },
-    {
-        asciiArt: "     /\\_\\\n    / o o \\\n   (   \"   )\n    \\~(*)~/\n     '---'\\ \n           \\ \n           /\\ \n          /  \\ \n         /    \\",
-        description: "Meet Jasper, the energetic and playful pup who loves chasing after balls and playing with his favorite toys."
-    },
-    {
-        asciiArt: "   ______\n (|      |\n  | ^__^ |\n  |  O   |\n  |   o  |\n  | ||_||\n  |______|",
-        description: "This is Milo, the sweet and affectionate pup who loves snuggling up with his favorite humans and giving lots of kisses."
-    },
-    {
-        asciiArt: "   _    _\n /` `--' `\\\n/  _      _\\ \n|_/ \\----/ \\_\n    /`\\  /`\\\n    \\__/  \\__/",
-        description: "Meet Willow, the gentle and calm pup who loves long walks in nature and cuddling up with a good book."
-    },
-    {
-        asciiArt: "        __   /\\ \n    .-.'  `; `-._  __  / \n   (_,         .-:'  `; `-._\n ,'o\"(        (_,           )\n(__,-'      ,'o\"(            )>\n   (       (__,-'            \n    `-'._.--._(             ",
-        description: "Meet Sir Barkington, the regal canine with a distinguished bark that echoes through the halls."
-    },
-    {
-        asciiArt: "            ,---,\n          ,/  .`|   \n      ,`   `.`'    \n  ,--.`.  .-' .--.   ,--.--.\n  |   \\`' /   /  _    |  .--'\n  |    |  |   ,`:`:`.|  |   \n  `--' `--'   `.`.   ,'  '--'\n                 `--`'         ",
-        description: "Meet Pugsley, the playful pug with a love for belly rubs and napping in cozy blankets."
-    },
-    {
-        asciiArt: "   (\\__/)\n   /     \\ \n  /  _  _\\   \n  \\  _  _/   \n   ( / )( \\ \n    \\|/__\\| \n    //||\\\\\n   // || \\\\",
-        description: "Meet Slinky, the stretchy dachshund who loves to chase balls and burrow under blankets."
-    },
-    {
-        asciiArt: "      ,#####,\n      #_   _#\n      |a` `a|\n      |  u  |\n      \\  =  / \n     |\`\"\"\"`/|\n     |     | \n",
-        description: "Meet Fido, the fun-loving mutt with a talent for catching frisbees and performing tricks on command."
-    },
-    {
-        asciiArt: "       /\\_/\\\n  ____/ o o \\ \n/~____  =ø= / \n(______)__m_m)",
-        description: "Introducing Gizmo, the tiny robot dog who loves to fetch and cuddle."
-    },
-    {
-        asciiArt: "       /\\_/\\\n /~     \\\n|   /\\_/\\\n|  / o o \\\n \\_\\~_~_/~ )\n   \\~_~_~_~ /\n    [____] ",
-        description: "Say hello to Frisky, the mischievous feline who loves to climb and play with toys."
-    },
-    {
-        asciiArt: "         /\\_/\\    \n        ( o o )\n        ==_Y_==\n       /  |  \\\n      (   |   )\n     /|`-^-`|\\\n    \\| `=^= `|/",
-        description: "Meet Rocky, the energetic bunny who loves to hop around and nibble on carrots."
-    },
-    {
-        asciiArt: "     /\\___/\\    \n    ( o   o )   \n   (  =^=  )   \n    (      )    \n   (        )   \n  (          )",
-        description: "This is Zeus, the strong and powerful pup who loves to play and explore the outdoors."
-    }
-];
+        asciiArt: "\n   /\\  ___  /\\   \n  // \\/   \\/ \\\\ \n  \\\\ /\\   /\\ // \n   \\/  \\_/  \\/   \n",
+        name: "Ziggy",
+        age: 1,
+        description: "She's a shy dog and prefers to spend most of her time snuggling up with her human on the couch.",
+    }];
+
 
 // Define a new array to keep track of which dogs have been seen
 let seenDogs = [];
@@ -130,7 +140,8 @@ function generateDog() {
 
     // Set the ASCII art and description
     document.getElementById("ascii-art").textContent = dog.asciiArt;
-    document.getElementById("description").textContent = dog.description;
+    document.getElementById("description").innerHTML = `Name: ${dog.name}<br>Age: ${dog.age}<br>Description: ${dog.description}`;
+    
     startAnimation();
     
 }
@@ -141,6 +152,24 @@ function startAnimation() {
     element.style.animation = "none"; // reset animation
     void element.offsetWidth; // trigger reflow
     element.style.animation = "type 4s steps(40, end) forwards"; // start animation
+
+    const textElement = document.getElementById("ascii-art");
+    const words = textElement.innerText.split(" ");
+
+    textElement.innerHTML = "";
+
+    for (const word of words) {
+        const span = document.createElement("span");
+        span.innerText = word + " ";
+        textElement.appendChild(span);
+    }
+
+    let currentIndex = 0;
+    setInterval(() => {
+        const currentSpan = textElement.children[currentIndex];
+        currentSpan.classList.add("bounce");
+        currentIndex = (currentIndex + 1) % textElement.children.length;
+    }, 10);
 }
 
 // Call the generateDog function to display the first dog
