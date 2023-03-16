@@ -6,10 +6,8 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 
   <style>
-    
-    
     body {
-      background-color: #695356; 
+      background-color: #695356;
       margin: 0;
     }
 
@@ -36,40 +34,41 @@
       width: 80%;
       overflow: hidden;
       white-space: nowrap;
-      opacity: 1;
-      animation: type 4s steps(40, end) forwards;
+      opacity: 0;
     }
 
+    /* Keyframes for animation */
     @keyframes type {
       from {
         width: 0%;
+        opacity: 0;
       }
       to {
         width: 100%;
         opacity: 1;
       }
     }
-   	 /* Button styles */
-  	  .refresh-button {
-    	  position: absolute;
-    	  bottom: 350px;
-    	  left: 50%;
-    	  transform: translateX(-50%);
-     	 background-color: #ECB865;
-     	 color: #695356; 
-    	  border: none;
-    	  padding: 10px 20px;
-     	 text-align: center;
-    	  text-decoration: none;
-    	  font-size: 16px;
-    	  cursor: pointer;
+
+    /* Button styles */
+    .refresh-button {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #ECB865;
+      color: #695356;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
     }
 
     .refresh-button:hover {
       background-color: #CE9E59;
     }
-    
-    </style>
+  </style>
 </head>
 
 
@@ -84,6 +83,5 @@
 
   <script src="godgenerator.js"></script>
 
-</script>
 </body>
 </html>

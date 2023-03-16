@@ -131,6 +131,16 @@ function generateDog() {
     // Set the ASCII art and description
     document.getElementById("ascii-art").textContent = dog.asciiArt;
     document.getElementById("description").textContent = dog.description;
+    startAnimation();
+    
+}
+
+// Function to start the animation
+function startAnimation() {
+    var element = document.getElementsByClassName("description")[0];
+    element.style.animation = "none"; // reset animation
+    void element.offsetWidth; // trigger reflow
+    element.style.animation = "type 4s steps(40, end) forwards"; // start animation
 }
 
 // Call the generateDog function to display the first dog
